@@ -1,0 +1,55 @@
+/* src/components/Quiz.css */
+
+.quiz-container {
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.timer {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: right; /* Align timer to the right */
+}
+
+.quiz-title {
+    font-size: 24px; /* Increase font size for the title */
+    text-align: center; /* Center the title */
+    margin-bottom: 10px;
+}
+
+.question-container {
+    margin-top: 20px; /* Space between question and options */
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column; /* Arrange options in a column */
+    align-items: flex-start; /* Align options to the left */
+    margin: 10px 0;
+}
+
+.option {
+    margin: 5px 0; /* Add spacing between options */
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.scoreboard {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.scoreboard h2 {
+    color: #343a40;
+}
+
+.scoreboard p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #28a745;
+}

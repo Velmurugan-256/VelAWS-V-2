@@ -1,0 +1,29 @@
+/* src/components/Footer.css */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #232F3E; /* AWS Blue */
+    color: white;
+}
+
+.footer-content {
+    display: flex; 
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content */
+}
+
+.social-links {
+    margin-top: 10px; /* Space above social icons */
+}
+
+.social-links a {
+    color: #FF9900; /* Set icon color to AWS Orange */
+    margin: 0 10px; /* Space between icons */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-links a:hover {
+    color: white; /* Change color to white on hover */
+}

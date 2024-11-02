@@ -1,0 +1,39 @@
+/* src/components/Services.css */
+
+.services {
+    padding: 40px 20px;
+    background-color: #f8f8f8; /* Light background for contrast */
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #232F3E;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-bottom: 20px;
+}
+
+.choices button {
+    padding: 10px 20px;
+    background-color: #FF9900; /* AWS Orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choices button:hover {
+    background-color: #e68a00; /* Darker shade on hover */
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

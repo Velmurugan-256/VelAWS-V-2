@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232F3E; /* AWS Blue */
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.aws-logo {
+    height: 40px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between logo and title */
+}
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.header-right a:hover {
+    color: #FF9900; /* Change color on hover */
+}

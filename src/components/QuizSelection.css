@@ -1,0 +1,29 @@
+/* src/components/QuizSelection.css */
+
+.quiz-selection-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items */
+    gap: 20px; /* Space between items */
+}
+
+.service-card {
+    flex: 0 1 calc(50% - 20px); /* Two items per row, minus gap space */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
